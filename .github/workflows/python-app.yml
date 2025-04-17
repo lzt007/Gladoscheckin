@@ -33,3 +33,4 @@ jobs:
         python checkin.py      
       env:
         COOKIES: ${{ secrets.COOKIES }}
+        SENDKEY: ${{ secrets.SENDKEY }}

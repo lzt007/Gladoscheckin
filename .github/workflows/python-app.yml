@@ -5,8 +5,8 @@ name: Python application
 
 on:
   schedule:
-    # 每天早上6点执行
-    - cron: '0 14 * * *'
+    # UTC时间7:05 北京时间15:05
+    - cron: '5 7 * * *'
 
 permissions:
   contents: read
